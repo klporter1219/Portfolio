@@ -1,0 +1,938 @@
+.first-nav {
+  width: 1236px;
+  height: 49px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.shipping {
+  font-size: 14px;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  padding-top: 16px;
+  padding-left: 33px;
+}
+
+.person {
+  width: 17px;
+  height: 17px;
+  display: inline;
+}
+
+.account {
+  color: #fff;
+  font-size: 12px;
+  font-family: Helvetica;
+  display: inline;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 4px;
+  margin-right: 49px;
+}
+
+.first-nav-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.maps {
+  width: 19px;
+  height: 19px;
+}
+
+.store {
+  color: #fff;
+  font-size: 12px;
+  font-family: Helvetica;
+  display: inline;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 4px;
+  margin-right: 52px;
+}
+
+.grey {
+  width: 160px;
+  height: 49px;
+  background-color: #282829;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flag {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.english {
+  color: #fff;
+  font-size: 12px;
+  font-family: Helvetica;
+  display: inline;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.arrow {
+  width: 17px;
+  height: 17px;
+  margin-left: 27px;
+}
+
+.second-nav {
+  width: 1236px;
+  height: 97px;
+  background-color: black;
+  border: white;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hydroflask-logo {
+  margin-left: 33px;
+}
+
+.shop {
+  color: #fff;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-left: 247px;
+  margin-top: 41px;
+  margin-bottom: 37px;
+}
+
+.customize {
+  color: #fff;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-left: 80px;
+  margin-top: 41px;
+  margin-bottom: 37px;
+}
+
+.explore {
+  color: #fff;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-left: 80px;
+  margin-top: 41px;
+  margin-bottom: 37px;
+}
+
+.search {
+  width: 70px;
+  height: 70px;
+  margin-left: 250px;
+}
+
+.cart {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.first-section {
+  width: 1236px;
+  height: 383.5px;
+  background-image: url(../images/desktop-picture.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.plan-well {
+  font-size: 30px;
+  font-family: Helvetica;
+  color: #fff;
+  margin-left: 389px;
+  padding-top: 75px;
+  margin-bottom: 0;
+}
+
+.prep-well {
+  font-size: 30px;
+  font-family: Helvetica;
+  font-style: bold;
+  color: #fff;
+  margin-left: 389px;
+  margin-bottom: 0;
+}
+
+.eat-well {
+  font-size: 30px;
+  font-family: Helvetica;
+  color: #fff;
+  margin-left: 389px;
+  margin-bottom: 0;
+}
+
+.first-description {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 389px;
+  margin-top: 12px;
+}
+
+.picture-button {
+  width: 95px;
+  height: 25px;
+  background-color: white;
+  margin-left: 389px;
+}
+
+.shop-food {
+  font-family: Helvetica;
+  font-size: 8px;
+  margin-left: 6px;
+  padding-top: 8px;
+}
+
+.second-section {
+  width: 1236px;
+  height: 113px;
+  margin: 0 auto;
+}
+
+.second-title {
+  font-family: Helvetica;
+  font-size: 24px;
+  padding-left: 350px;
+  padding-top: 65px;
+}
+
+.third-section {
+  width: 1236px;
+  height: 197px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.bottles-image {
+  width: 48px;
+  height: 150px;
+  margin-left: 210px;
+  margin-bottom: 34px;
+}
+
+.tumblers-image {
+  width: 52px;
+  height: 150px;
+  margin-left: 40px;
+  margin-bottom: 34px;
+}
+
+.coffee-image {
+  width: 43px;
+  height: 150px;
+  margin-left: 53px;
+  margin-bottom: 34px;
+}
+
+.beer-image {
+  width: 62px;
+  height: 150px;
+  margin-left: 52px;
+  margin-bottom: 34px;
+}
+
+.wine-image {
+  width: 43px;
+  height: 150px;
+  margin-left: 44px;
+  margin-bottom: 34px;
+}
+
+.food-image {
+  width: 96px;
+  height: 137px;
+  margin-left: 34px;
+  margin-bottom: 28px;
+}
+
+.coolers-image {
+  width: 96px;
+  height: 110px;
+}
+
+.packs-image {
+  width: 73px;
+  height: 150px;
+  margin-left: 14px;
+  margin-bottom: 34px;
+}
+
+.accessories-image {
+  width: 37px;
+  height: 150px;
+  margin-left: 57px;
+  margin-bottom: 34px;
+}
+
+.new {
+  color: #0074a2;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-top: 172px;
+  position: absolute;
+  margin-left: 903px;
+}
+
+.fourth-section {
+  width: 1236px;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.bottles {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-left: 207px;
+  margin-bottom: 51px;
+}
+
+.blue-arrow {
+  width: 10px;
+  height: 10px;
+  margin-left: 3px;
+  margin-bottom: 51px;
+}
+
+.tumblers {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-bottom: 51px;
+  margin-left: 21px;
+}
+
+.coffee {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-bottom: 51px;
+  margin-left: 21px;
+}
+
+.beer {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-bottom: 51px;
+  margin-left: 49px;
+}
+
+.wine {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-bottom: 51px;
+  margin-left: 49px;
+}
+
+.food {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-bottom: 51px;
+  margin-left: 49px;
+}
+
+.coolers {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-bottom: 51px;
+  margin-left: 34px;
+}
+
+.packs {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-bottom: 51px;
+  margin-left: 34px;
+}
+
+.accessories {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-bottom: 51px;
+  margin-left: 27px;
+}
+
+.fifth-section {
+  width: 1236px;
+  height: 742px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.orange-text {
+  width: 543px;
+  height: 662px;
+  margin-left: 47px;
+  background-color: steelblue;
+  background-image: url(../images/orange.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 31px;
+}
+
+.my-hydro {
+  width: 169px;
+  height: 42px;
+  margin-top: 368px;
+  margin-left: 321px;
+}
+
+.one {
+  color: #2c4d7e;
+  font-family: Helvetica;
+  font-size: 44px;
+  margin-top: 10px;
+  margin-left: 220px;
+}
+
+.kind {
+  color: #2c4d7e;
+  font-family: Helvetica;
+  font-size: 44px;
+  margin-left: 203px;
+}
+
+.create {
+  color: #2c4d7e;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 315px;
+}
+
+.create-arrow {
+  width: 13px;
+  height: 16px;
+  padding-top: 5px;
+}
+
+.blue-hydro {
+  width: 543px;
+  height: 321px;
+  margin-left: 53px;
+  margin-top: 31px;
+  background-image: url(../images/blue.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.shop-now {
+  color: #0975c8;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 282px;
+  margin-left: 230px;
+}
+
+.shop-arrow {
+  width: 13px;
+  height: 14px;
+  padding-top: 2px;
+}
+
+.color {
+  width: 261px;
+  height: 315px;
+  position: absolute;
+  margin-left: 643px;
+  margin-top: 378px;
+  background-image: url(../images/color.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.meet-spring {
+  color: #2f4560;
+  font-family: Helvetica;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 138px;
+  margin-left: 38px;
+}
+
+.shop-color {
+  color: #2f4560;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 86px;
+  margin-top: 8px;
+}
+
+.color-arrow {
+  width: 11px;
+  height: 14px;
+  padding-top: 3px;
+}
+
+.winter {
+  width: 257px;
+  height: 315px;
+  position: absolute;
+  margin-left: 929px;
+  margin-top: 378px;
+  background-image: url(../images/winter.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.parks {
+  width: 115px;
+  height: 151px;
+  margin-left: 71px;
+  margin-top: 54px;
+}
+
+.meet-new {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 86px;
+  margin-top: 11px;
+}
+
+.grantees {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 62px;
+}
+
+.learn-more {
+  color: #03b3f6;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 83px;
+  margin-top: 12px;
+}
+
+.arrow-winter {
+  width: 11px;
+  height: 14px;
+  padding-top: 4px;
+}
+
+.sixth-section {
+  margin: 0 auto;
+  width: 1236px;
+  height: 133px;
+  background-color: #f7f7f7;
+}
+
+.colder-section {
+  width: 863px;
+  height: 133px;
+}
+
+.colder {
+  font-family: Helvetica;
+  font-size: 40px;
+  margin-left: 27px;
+  padding-top: 25px;
+}
+
+.join-us {
+  font-family: Helvetica;
+  font-size: 21px;
+  font-weight: normal;
+  margin-left: 27px;
+  padding-top: 19px;
+}
+
+.hydroflask {
+  width: 274px;
+  height: 133px;
+  position: absolute;
+  margin-left: 962px;
+}
+
+.hydroflask-border {
+  width: 1px;
+  height: 98px;
+  border-right: 1px solid #707070;
+  position: absolute;
+  margin-left: 963px;
+  margin-top: 35px;
+}
+
+.hydroflask-at {
+  color: #0074a2;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 45px;
+  margin-top: 42px;
+}
+
+.hydroflask-hashtag {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.hey-lets-go {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.part-two {
+  width: 1236px;
+  height: 285px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.girl {
+  width: 254px;
+  height: 254px;
+  margin-left: 53px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.little-girls {
+  width: 254px;
+  height: 254px;
+  margin-left: 45px;
+  margin-bottom: 8px;
+}
+
+.skiier {
+  width: 254px;
+  height: 254px;
+  margin-left: 35px;
+  margin-bottom: 8px;
+}
+
+.dog {
+  width: 254px;
+  height: 254px;
+  margin-left: 35px;
+  margin-bottom: 8px;
+}
+
+.ending-section {
+  width: 1236px;
+  height: 412px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.company-section {
+  list-style: none;
+  width: 200px;
+  height: 412px;
+  display: inline-block;
+}
+
+.company {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 53px;
+  padding-top: 77px;
+}
+
+.about {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 53px;
+  padding-top: 31px;
+}
+
+.careers {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 53px;
+  padding-top: 31px;
+}
+
+.press {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 53px;
+  padding-top: 31px;
+}
+
+.affiliates {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 53px;
+  padding-top: 31px;
+}
+
+.company-border {
+  width: 1px;
+  height: 226px;
+  border-right: 2px solid #fff;
+  position: absolute;
+  margin-left: 216px;
+  margin-top: -336px;
+}
+
+.support-section {
+  list-style: none;
+  display: inline-block;
+}
+
+.support {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 71px;
+}
+
+.faq {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 71px;
+  padding-top: 31px;
+}
+
+.shipping-ending {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 71px;
+  padding-top: 31px;
+}
+
+.returns {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 71px;
+  padding-top: 31px;
+}
+
+.warranty {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 71px;
+  padding-top: 31px;
+}
+
+.contact-section {
+  list-style: none;
+  display: inline-block;
+}
+
+.contact-ending {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 83px;
+}
+
+.dealer {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 83px;
+  padding-top: 31px;
+}
+
+.pro {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 83px;
+  padding-top: 31px;
+}
+
+.track {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 83px;
+  padding-top: 31px;
+}
+
+.stay-section {
+  list-style: none;
+  display: inline-block;
+}
+
+.stay-touch {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 40px;
+  margin-left: 265px;
+}
+
+.description {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 15px;
+  margin-left: 265px;
+  padding-top: 15px;
+}
+
+.info {
+  width: 10px;
+  height: 10px;
+}
+
+.white-box {
+  background-color: #fff;
+  width: 370px;
+  height: 47px;
+  margin-left: 265px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.email {
+  color: #959292;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.grey-arrow {
+  width: 25px;
+  height: 25px;
+  margin-left: 74px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.twitter-logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 265px;
+}
+
+.instagram-logo {
+  width: 55px;
+  height: 55px;
+  margin-left: 7px;
+}
+
+.facebook-logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 7px;
+}
+
+.pinterest-logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 7px;
+}
+
+.youtube-logo {
+  width: 80px;
+  height: 80px;
+}
+
+footer {
+  width: 1236px;
+  height: 120px;
+  background-color: #2b6b97;
+  margin: 0 auto;
+}
+
+.address {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 18px;
+  list-style: none;
+  margin-left: 874px;
+  padding-top: 39px;
+}
+
+.copyright {
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 14px;
+  list-style: none;
+  margin-left: 829px;
+  padding-top: 9px;
+}

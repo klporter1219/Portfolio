@@ -1,0 +1,144 @@
+.first-nav {
+  width: 1236px;
+  height: 49px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.shipping {
+  font-size: 14px;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: normal;
+  padding-top: 16px;
+  padding-left: 33px;
+}
+
+.person {
+  width: 17px;
+  height: 17px;
+  display: inline;
+}
+
+.account {
+  color: #fff;
+  font-size: 12px;
+  font-family: Helvetica;
+  display: inline;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 4px;
+  margin-right: 49px;
+}
+
+.first-nav-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.maps {
+  width: 19px;
+  height: 19px;
+}
+
+.store {
+  color: #fff;
+  font-size: 12px;
+  font-family: Helvetica;
+  display: inline;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 4px;
+  margin-right: 52px;
+}
+
+.grey {
+  width: 160px;
+  height: 49px;
+  background-color: #282829;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flag {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.english {
+  color: #fff;
+  font-size: 12px;
+  font-family: Helvetica;
+  display: inline;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.arrow {
+  width: 17px;
+  height: 17px;
+  margin-left: 27px;
+}
+
+.second-nav {
+  width: 1236px;
+  height: 97px;
+  background-color: black;
+  border: white;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hydroflask-logo {
+  margin-left: 33px;
+}
+
+.shop {
+  color: #fff;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-left: 247px;
+  margin-top: 41px;
+  margin-bottom: 37px;
+}
+
+.customize {
+  color: #fff;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-left: 80px;
+  margin-top: 41px;
+  margin-bottom: 37px;
+}
+
+.explore {
+  color: #fff;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-left: 80px;
+  margin-top: 41px;
+  margin-bottom: 37px;
+}
+
+.search {
+  width: 70px;
+  height: 70px;
+  margin-left: 250px;
+}
+
+.cart {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
